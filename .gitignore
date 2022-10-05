@@ -1,0 +1,12 @@
+node_modules/
+.parcel-cache/
+dist/
+.env
+.DS_Store
+coverage/
+.vscode/
+.babelrc
+.eslintrc.json
+.prettierrc
+package-lock.json
+package.json
