@@ -1,0 +1,48 @@
+
+.card-wrapper a {
+    color: white;
+    text-decoration: none;
+}
+
+.card-background {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top left;
+    min-height: 190px;
+    min-width: 300px;
+    opacity: 1;
+}
+
+/* .card-background:hover {
+    opacity: 0.3
+} */
+
+.card-wrapper:hover .card-title {
+    opacity: 0;
+}
+
+.container:hover .card-overlay, .card-description {
+    opacity: 1;
+  }
+
+.card-overlay{
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+

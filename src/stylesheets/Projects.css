@@ -1,0 +1,7 @@
+
+.project-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    animation: fadein 2s;
+}
