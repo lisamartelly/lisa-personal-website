@@ -1,0 +1,41 @@
+
+.project-banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.project-banner.image-right {
+    flex-direction: row-reverse;
+}
+
+.title-text {
+    font-size: 32px;
+}
+
+.project-image-container {
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 190px;
+    width: 66%;
+    height: 22em;
+}
+
+.project-text-container {
+    background-color: #CE5B43;
+    color: white;
+    padding: 15px;
+    margin-left: -3em;
+    width: 50%;
+}
+
+.image-right .project-text-container {
+    margin-right: -3em;
+    margin-left: 0em;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+}

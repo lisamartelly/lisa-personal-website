@@ -1,4 +1,5 @@
  import ProjectCard from "./ProjectCard.js"
+ import ProjectBanner from "./ProjectBanner.js"
  import returnOfResultsGif from "../static/gifs/return-of-results.gif"
  import transitGif from "../static/gifs/transit-weather-gif.gif"
  import fullMoonEmailPic from "../static/img/full-moon-email.png"
@@ -13,45 +14,54 @@
 
     return(<div>
         <div data-aos="fade-right" data-aos-once="true">
-            <h2><span class="highlight-container"><span class="highlight">Tech</span></span> Projects</h2>
-            <div className="project-row">
-            <ProjectCard 
+            <h1><span className="highlight-container"><span className="highlight">Tech</span></span> Projects</h1>
+            <div>
+            
+            </div>
+            <ProjectBanner 
                 siteLink={"returning-research-results"} 
                 title={"Return of Results"} 
-                description={"click here"} 
-                backgroundLink={returnOfResultsGif}/>
+                description={"Fullstack web app for sharing research data with participants"} 
+                backgroundLink={returnOfResultsGif}
+                imagePosition="right"/>
 
-            <ProjectCard 
+            <ProjectBanner 
                 siteLink={"transit-weather-app"} 
-                title={"Transit Weather Home Dashboard"} 
-                description={"click here"}
-                backgroundLink={transitGif}/>
-            <ProjectCard 
+                title={"Transit Weather Dashboard"} 
+                description={"Simple dashboard to constantly display relevant information in my home"}
+                backgroundLink={transitGif}
+                imagePosition="left"/>
+
+            <ProjectBanner
                 siteLink={"full-moon-fan-club"} 
-                title={"Full Moon Fan Club"} 
-                description={"click here"}
-                backgroundLink={fullMoonEmailPic}/>
-            </div>
+                title={"Full Moon Fan Club"}
+                description={"A social networking/media site for connecting with friends over something cool"}
+                backgroundLink={fullMoonEmailPic}
+                imagePosition="right"/>
+
         </div>
 
         <div data-aos="fade-left" data-aos-once="true">
-            <h2><span class="highlight-container"><span class="highlight">Life</span></span> Projects</h2>
-            <div className="project-row">
-            <ProjectCard 
+            <h1><span className="highlight-container"><span className="highlight">Life</span></span> Projects</h1>
+            <div>
+            <ProjectBanner 
                 siteLink={"painting-my-car"} 
                 title={"Painting my Car"} 
                 description={"It was pretty cool"}
-                backgroundLink={carPaintingPic}/>
-            <ProjectCard 
+                backgroundLink={carPaintingPic}
+                imagePosition="left"/>
+            <ProjectBanner 
                 siteLink={"woodworking"} 
                 title={"Very Amateur Woodworking"} 
                 description={"I like to build shelves, cutting baords, shacks, and carve little trinkets"}
-                backgroundLink={cuttingBoardPic}/>
-            <ProjectCard 
+                backgroundLink={cuttingBoardPic}
+                imagePosition="right"/>
+            <ProjectBanner 
                 siteLink={"community"} 
                 title={"Community Engagement"} 
                 description={"wonder what it's like to be an HOA Vice President?"}
-                backgroundLink={communityGardenPic}/>            
+                backgroundLink={communityGardenPic}
+                imagePosition="left"/>            
 
             </div>
 

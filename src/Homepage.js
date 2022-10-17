@@ -3,7 +3,6 @@
 import Conclusion from "./Conclusion";
 import Projects from "./Projects";
 import Intro from "./Intro";
-import Footer from "./Footer";
 
 function Homepage() {
 

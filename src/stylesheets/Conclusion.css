@@ -1,0 +1,14 @@
+#connection-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35%;
+    align-items: center;
+    font-size: 2.5em;
+}
