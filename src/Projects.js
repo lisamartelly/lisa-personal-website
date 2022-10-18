@@ -13,7 +13,7 @@
  function Projects() {
 
     return(<div>
-        <div data-aos="fade-right" data-aos-once="true">
+        <div className="tech-projects-section padded">
             <h1><span className="highlight-container"><span className="highlight">Tech</span></span> Projects</h1>
             <div>
             
@@ -41,9 +41,9 @@
 
         </div>
 
-        <div data-aos="fade-left" data-aos-once="true">
+        <div className="life-projects-section padded">
             <h1><span className="highlight-container"><span className="highlight">Life</span></span> Projects</h1>
-            <div>
+            <div data-aos="fade-left" data-aos-once="true">
             <ProjectBanner 
                 siteLink={"painting-my-car"} 
                 title={"Painting my Car"} 

@@ -1,11 +1,14 @@
 
+#full-intro-section {
+    background: linear-gradient(to bottom, transparent, rgb(236, 236, 236)), url("../../static/img/triangles.png");
+
+}
+
 #intro-banner {
     display: flex;
     flex-direction: row;
-    /* background-color: #00B0AA; */
     justify-content: space-between;
-    align-items: center;
-
+    align-items: flex-end;
 }
 
 #intro-left {
@@ -14,12 +17,55 @@
 
 #avatar {
     width: 250px;
+    margin-right: 4rem;
 }
 
 #detailed-intro {
     width: 60%;
-    min-height: 40vh;
+    /* min-height: 30vh; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+ul.skills-list {
+    list-style: none;
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 0px;
+    align-items: center;
+}
+
+.skills-list li {
+    display: inline-block;
+    text-transform: uppercase;
+    width: 4em;
+}
+
+#skills-box {
+   
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 1.5rem auto 4rem auto;
+}
+
+#skills-sub-box {
+    width: 100%;
+    padding: 0px 40px 0px 20px;
+    border: 2px;
+    border-style: solid;
+    border-color: #CF5C43;
+    background-color: whitesmoke;
+}
+
+#skills-title {
+    transform: rotate(270deg);
+    background-color: #CF5C43;
+    color: white;
+    display: block;
+    margin-right: -25PX;
+    padding: 0px 12px;
+    margin-left: -20px;
 }

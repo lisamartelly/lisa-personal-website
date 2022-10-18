@@ -6,7 +6,7 @@ import Intro from "./Intro";
 
 function Homepage() {
 
-    return(<div id="test">
+    return(<div>
         
         < Intro />
         < Projects />

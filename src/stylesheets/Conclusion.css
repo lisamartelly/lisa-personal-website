@@ -1,3 +1,28 @@
+
+#full-conclusion-section {
+    background: url("../../static/img/double-bubble-outline.png");
+    padding-top: 7rem;
+    margin-top: -4.2rem;
+}
+
+#conclusion-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#conclusion-left-text {
+    width: 60%;
+}
+
+#portrait {
+    width: 250px;
+    margin-right: 4rem;
+}
+
+
+
 #connection-row {
     display: flex;
     flex-direction: row;

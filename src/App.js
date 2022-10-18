@@ -14,9 +14,9 @@ const App = () => {
   return (
     <StrictMode>
         <BrowserRouter >
-          <header>
+          {/* <header>
             <Link to="/">Homepage</Link>
-          </header>
+          </header> */}
           <Routes >
             {/* <Route path="/project/:id" element={<Project />} /> */}
             <Route path="/" element={<Homepage />}/>

@@ -4,7 +4,7 @@ import "./stylesheets/Intro.css";
 
 
 function Intro() {
-    return(<div>
+    return(<div id="full-intro-section" className="padded">
         <div id="intro-banner">
             <div id="intro-left">
                 <h1>I am</h1> 
@@ -21,12 +21,29 @@ function Intro() {
             I know how to do a lot of things. Oh, you want to know what I know? Well I will tell you, or maybe add little icons.
             I'm not sure. still deciding what I will do for that. 
 
-            Keep scrolling for some things I've been working on over the past few months!
+            <b> Keep scrolling for some things I've been working on over the past few months!</b>
             </p>
         </div>
-        <div id="skills-box">
-            <i class="fa-brands fa-square-js"></i>
-
+        <div id="skills-box" className="box-shadow">
+            <div id="skills-title"><h3>Skills</h3></div>
+            <div id="skills-sub-box">
+                <ul className="skills-list">
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>CSS3</li>
+                    <li>HTML5</li>
+                    <li>SQL</li>
+                </ul>
+                <ul className="skills-list">
+                    <li>Rest API</li>
+                    <li>GraphQL</li>
+                    <li>Flask</li>
+                    <li>Node</li>
+                    <li>Analysis</li>
+                    <li>Research</li>
+                </ul>
+            </div>
         </div>
 
 
