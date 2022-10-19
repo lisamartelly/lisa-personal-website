@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 
 import avatar from "../static/img/lisa-avatar.png";
 import "./stylesheets/Intro.css";
@@ -24,7 +25,7 @@ function Intro() {
             <b> Keep scrolling for some things I've been working on over the past few months!</b>
             </p>
         </div>
-        <div id="skills-box" className="box-shadow">
+        <div id="skills-box" className="box-shadow-subtle">
             <div id="skills-title"><h3>Skills</h3></div>
             <div id="skills-sub-box">
                 <ul className="skills-list">
@@ -36,10 +37,10 @@ function Intro() {
                     <li>SQL</li>
                 </ul>
                 <ul className="skills-list">
-                    <li>Rest API</li>
-                    <li>GraphQL</li>
                     <li>Flask</li>
                     <li>Node</li>
+                    <li>Rest API</li>
+                    <li>GraphQL</li>
                     <li>Analysis</li>
                     <li>Research</li>
                 </ul>

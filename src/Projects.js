@@ -1,4 +1,3 @@
- import ProjectCard from "./ProjectCard.js"
  import ProjectBanner from "./ProjectBanner.js"
  import returnOfResultsGif from "../static/gifs/return-of-results.gif"
  import transitGif from "../static/gifs/transit-weather-gif.gif"
@@ -14,7 +13,7 @@
 
     return(<div>
         <div className="tech-projects-section padded">
-            <h1><span className="highlight-container"><span className="highlight">Tech</span></span> Projects</h1>
+            <h1 className="text-shadow"><span className="highlight-container"><span className="highlight">Tech</span></span> Projects</h1>
             <div>
             
             </div>

@@ -20,6 +20,7 @@
     min-height: 190px;
     width: 66%;
     height: 22em;
+    animation-name: fadein;
 }
 
 .project-text-container {
@@ -39,3 +40,4 @@
     width: 100%;
     height: auto;
 }
+
