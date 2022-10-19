@@ -12,7 +12,7 @@
  function Projects() {
 
     return(<div>
-        <div className="tech-projects-section padded">
+        <div id="tech-projects-section" className="padded">
             <h1 className="text-shadow"><span className="highlight-container"><span className="highlight">Tech</span></span> Projects</h1>
             <div>
             
@@ -40,9 +40,9 @@
 
         </div>
 
-        <div className="life-projects-section padded">
+        <div id="life-projects-section" className="padded">
             <h1><span className="highlight-container"><span className="highlight">Life</span></span> Projects</h1>
-            <div data-aos="fade-left" data-aos-once="true">
+            <div>
             <ProjectBanner 
                 siteLink={"painting-my-car"} 
                 title={"Painting my Car"} 

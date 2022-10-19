@@ -7,11 +7,11 @@
     animation: fadein 2s;
 }
 
-.life-projects-section {
+#life-projects-section {
     background: linear-gradient(to top, transparent, rgb(236, 236, 236)), url("../../static/img/double-bubble-outline.png");
 }
 
-.tech-projects-section {
+#tech-projects-section {
     background: linear-gradient(to bottom, transparent, rgb(236, 236, 236)), linear-gradient(to top, transparent, rgb(236, 236, 236)), url("../../static/img/pipes.png");
 }
 

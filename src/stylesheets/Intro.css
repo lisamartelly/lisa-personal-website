@@ -9,24 +9,25 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
+    flex-wrap: wrap;
 }
 
-#intro-left {
-    width: 60%;
+#intro-right {
+    display: flex;
+    justify-content: center;
 }
 
 #avatar {
-    width: 250px;
-    margin-right: 4rem;
+    width: 14rem;
 }
 
 #detailed-intro {
-    width: 60%;
-    /* min-height: 30vh; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
+
+
 
 ul.skills-list {
     list-style: none;
@@ -35,12 +36,13 @@ ul.skills-list {
     justify-content: space-between;
     padding-left: 0px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .skills-list li {
     display: inline-block;
     text-transform: uppercase;
-    width: 4em;
+    width: 6em;
 }
 
 #skills-box {

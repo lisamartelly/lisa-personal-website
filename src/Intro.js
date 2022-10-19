@@ -7,17 +7,17 @@ import "./stylesheets/Intro.css";
 function Intro() {
     return(<div id="full-intro-section" className="padded">
         <div id="intro-banner">
-            <div id="intro-left">
+            <div id="intro-left" className="media-col-100">
                 <h1>I am</h1> 
                 <h1><span className="highlight-container"><span className="highlight">Lisa Martelly</span></span></h1>
                 <p>I am a software engineer - converted from my past life as an Epidemiologist and 
                     Public Health Professional.</p>
             </div>
-            <div id="intro-right">
+            <div id="intro-right" className="media-col-100-small">
                 <img id="avatar" className="box-shadow" src={avatar} alt="Avatar of Lisa Martelly" />
             </div>
         </div>
-        <div id="detailed-intro">
+        <div id="detailed-intro" className="media-col-100">
             <p>This is where I talk more in depth about myself. I want to be a frontend engineer. I think it's really cool and fun. 
             I know how to do a lot of things. Oh, you want to know what I know? Well I will tell you, or maybe add little icons.
             I'm not sure. still deciding what I will do for that. 
@@ -30,11 +30,11 @@ function Intro() {
             <div id="skills-sub-box">
                 <ul className="skills-list">
                     <li>Python</li>
-                    <li>JavaScript</li>
+                    <li>SQL</li>
                     <li>React</li>
                     <li>CSS3</li>
                     <li>HTML5</li>
-                    <li>SQL</li>
+                    <li>JavaScript</li>
                 </ul>
                 <ul className="skills-list">
                     <li>Flask</li>

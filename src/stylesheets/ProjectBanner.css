@@ -1,14 +1,61 @@
-
 .project-banner {
     display: flex;
-    flex-direction: row;
     align-items: center;
     margin-bottom: 3rem;
 }
 
-.project-banner.image-right {
-    flex-direction: row-reverse;
+.project-text-container {
+    background-color: #82392B;
+    color: white;
+    padding: 15px;
 }
+
+
+@media only screen and (min-width: 751px) {
+    /* For larger screens: */
+    .project-banner {
+        flex-direction: row;
+    }
+    .project-banner.image-right {
+        flex-direction: row-reverse;
+    }
+    .project-text-container {
+        margin-left: -3em;
+        width: 50%;
+    }
+    
+    .image-right .project-text-container {
+        margin-right: -3em;
+        margin-left: 0em;
+    }
+
+    .project-image-container {
+        width:66%;
+    }
+  }
+  
+  @media only screen and (max-width: 750px) {
+    /* For mobile phones: */
+    .project-banner {
+        flex-direction: column;
+    }
+    .project-banner.image-right {
+        flex-direction: column;
+    }
+    .project-text-container {
+        width: 80%;
+        margin-top: -4rem;
+    }
+    .project-image-container {
+        width:100%;
+    }
+    
+  }
+
+
+
+
+
 
 .title-text {
     font-size: 32px;
@@ -18,23 +65,10 @@
     background-size:cover;
     background-repeat: no-repeat;
     min-height: 190px;
-    width: 66%;
     height: 22em;
-    animation-name: fadein;
 }
 
-.project-text-container {
-    background-color: #82392B;
-    color: white;
-    padding: 15px;
-    margin-left: -3em;
-    width: 50%;
-}
 
-.image-right .project-text-container {
-    margin-right: -3em;
-    margin-left: 0em;
-}
 
 .project-image {
     width: 100%;
