@@ -74,7 +74,7 @@
                 stack="JavaScript, React, CSS, Firebase"
                 >
                     <Button 
-                        link="https://github.com/lisamartelly/personal-website"
+                        link="https://github.com/lisamartelly/lisa-personal-website"
                         text="GitHub"
                     />
                     </ProjectBanner>
