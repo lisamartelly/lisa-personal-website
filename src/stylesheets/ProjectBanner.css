@@ -15,6 +15,10 @@
     flex-direction: row;
 }
 
+.project-stack {
+    margin-top: 1rem;
+}
+
 
 @media only screen and (min-width: 751px) {
     /* For larger screens: */
