@@ -1,5 +1,6 @@
 node_modules/
 .parcel-cache/
+.static/gifs
 dist/
 .env
 .DS_Store
