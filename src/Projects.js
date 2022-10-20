@@ -1,9 +1,10 @@
  import ProjectBanner from "./ProjectBanner.js"
+ import Button from "./Button.js"
  import returnOfResultsGif from "../static/gifs/return-of-results.gif"
- import transitGif from "../static/gifs/transit-weather-gif.gif"
+ import transitGif from "../static/gifs/transit-weather.gif"
  import fullMoonEmailPic from "../static/img/full-moon-email.png"
- import carPaintingPic from "../static/img/painting-car.jpg"
- import cuttingBoardPic from "../static/img/cutting-board.jpg"
+ import carPaintingGif from "../static/gifs/car-painting.gif"
+ import woodworkingGif from "../static/gifs/woodworking.gif"
  import communityGardenPic from "../static/img/community-garden.jpg"
 
  
@@ -18,25 +19,50 @@
             
             </div>
             <ProjectBanner 
-                siteLink={"returning-research-results"} 
-                title={"Return of Results"} 
-                description={"Fullstack web app for sharing research data with participants"} 
+                title="Return of Results"
+                description="Fullstack web app for sharing research data with participants"
+                stack="Python, etc, etc"
                 backgroundLink={returnOfResultsGif}
-                imagePosition="right"/>
+                imagePosition="right"
+                >
+                    <Button 
+                        link="https://github.com/lisamartelly/return-of-results"
+                        text="GitHub"
+                    />
+                    <Button 
+                        link="https://www.youtube.com/watch?v=g_9kZTswXig"
+                        text="Video Demo"
+                    />
+                    </ProjectBanner>
 
             <ProjectBanner 
-                siteLink={"transit-weather-app"} 
                 title={"Transit Weather Dashboard"} 
                 description={"Simple dashboard to constantly display relevant information in my home"}
                 backgroundLink={transitGif}
-                imagePosition="left"/>
+                imagePosition="left"
+                >
+                    <Button 
+                        link="https://github.com/lisamartelly/weather-transit-app"
+                        text="GitHub"
+                    />
+                    </ProjectBanner>
 
             <ProjectBanner
-                siteLink={"full-moon-fan-club"} 
-                title={"Full Moon Fan Club"}
+                title={"Full Moon Fan Club - in progress"}
                 description={"A social networking/media site for connecting with friends over something cool"}
                 backgroundLink={fullMoonEmailPic}
-                imagePosition="right"/>
+                imagePosition="right"
+                >
+                    <Button 
+                        link="mailto:thomasarhanna@gmail.com?subject=Please add me to the Full Moon Fan Club Newsletter!"
+                        text="Join the Club"
+                    />
+                    <Button 
+                        link="https://github.com/lisamartelly/full-moon-fan-club"
+                        text="GitHub - in progress"
+                    />
+                    </ProjectBanner>
+                    
 
         </div>
 
@@ -44,24 +70,20 @@
             <h1><span className="highlight-container"><span className="highlight">Life</span></span> Projects</h1>
             <div>
             <ProjectBanner 
-                siteLink={"painting-my-car"} 
-                title={"Painting my Car"} 
-                description={"It was pretty cool"}
-                backgroundLink={carPaintingPic}
+                title="Very Amateur Woodworking"
+                description="I like to build shelves, cutting baords, shacks, and carve little trinkets"
+                backgroundLink={woodworkingGif}
                 imagePosition="left"/>
             <ProjectBanner 
-                siteLink={"woodworking"} 
-                title={"Very Amateur Woodworking"} 
-                description={"I like to build shelves, cutting baords, shacks, and carve little trinkets"}
-                backgroundLink={cuttingBoardPic}
+                title="Painting my Car"
+                description="It was pretty cool"
+                backgroundLink={carPaintingGif}
                 imagePosition="right"/>
             <ProjectBanner 
-                siteLink={"community"} 
-                title={"Community Engagement"} 
-                description={"wonder what it's like to be an HOA Vice President?"}
+                title="Community Engagement"
+                description="wonder what it's like to be an HOA Vice President?"
                 backgroundLink={communityGardenPic}
                 imagePosition="left"/>            
-
             </div>
 
             

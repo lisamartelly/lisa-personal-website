@@ -24,9 +24,9 @@ function Conclusion() {
         <div id="connection-row">
             <h2 id="connect-title"> Let's <span className="highlight-container"><span className="highlight">connect:</span></span></h2>
                 <div id="social-icons" className="media-col-100-small">
-                    <i className="bi bi-envelope-fill"></i>
-                    <i className="bi bi-linkedin"></i>
-                    <i className="bi bi-github"></i>
+                    <a href="mailto:martelly.lisa@gmail.com" ><i className="bi bi-envelope-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/lisa-martelly/" target="_blank" rel="noreferrer"><i className="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/lisamartelly" target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a>
                 </div>   
         </div>
     </div>)

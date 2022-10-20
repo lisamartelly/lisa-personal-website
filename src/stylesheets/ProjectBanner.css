@@ -10,6 +10,11 @@
     padding: 15px;
 }
 
+.button-row {
+    display: flex;
+    flex-direction: row;
+}
+
 
 @media only screen and (min-width: 751px) {
     /* For larger screens: */
