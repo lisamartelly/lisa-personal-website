@@ -21,7 +21,7 @@
             </div>
             <ProjectBanner 
                 title="Return of Results"
-                description="Fullstack web app for sharing research data with participants"
+                description="For my bootcamp capstone project I created an app for sharing/returning data with research participants. It has a researcher side to plan which data will be shared, store results, and share results. There are administrative capabilities as well. It also has a participant side (like a patient portal) to view results."
                 stack="Python, JavaScript, Jinja, React, Flask, CSS, SQL, PostgreSQL, REST Api, AWS"
                 backgroundLink={returnOfResultsGif}
                 imagePosition="right"
@@ -38,7 +38,7 @@
 
             <ProjectBanner 
                 title={"Transit Weather Dashboard"} 
-                description={"Simple dashboard to constantly display relevant information in my home"}
+                description={"I made this to better learn and understand React! It is a dashboard that displays incoming bus information for the 3 bus-stops by my house. It also displays the weather. If you watch closely, you'll see an example of an ETA update. Soon this will run 24/7 on a monitor-mounted Raspberry Pi by my door :)"}
                 backgroundLink={transitGif}
                 imagePosition="left"
                 stack="JavaScript, React, SCSS"
@@ -51,7 +51,7 @@
 
             <ProjectBanner
                 title={"Full Moon Fan Club - in progress"}
-                description={"A social networking/media site for connecting with friends over something cool"}
+                description={"This project started as the email in the accompanying photo. A friend hatched the idea to connect each month over the full moon. I thought it'd be the perfect opportunity to dabble in other langues and tech and create a fullstack social media forum! Full site forthcoming - in the meantime you can join the original newsletter listserv by emailing Tom (see button below)."}
                 backgroundLink={fullMoonEmailPic}
                 imagePosition="right"
                 stack="JavaScript, React, Express, Node.js, MongoDB, SCSS, GraphQL"
@@ -68,7 +68,7 @@
 
             <ProjectBanner
                 title={"My Personal Website"}
-                description={"You guessed it - I made this website! I learned a lot about this and that, got to practice this and that, deployed on Firebase for the first time"}
+                description={"You guessed it - I made this website! While making this I further practiced my React-best-practices, learned more about responsive design, and picked up some new CSS tricks along the way. This was my first time deploying a website on Firebase, as well."}
                 backgroundLink={personalWebsitePic}
                 imagePosition="left"
                 stack="JavaScript, React, CSS, Firebase"
@@ -87,17 +87,17 @@
             <div>
             <ProjectBanner 
                 title="Very Amateur Woodworking"
-                description="I like to build shelves, cutting baords, shacks, and carve little trinkets"
+                description="I love to build things, be self sufficient, and make art. After acquiring some tools I have so far built the perfect pantry shelves for my condo, crafted a beautiful cutting board, learned woodcarving, and I also took a 5-day course on how to build 'Thoreau's Cabin'. I look forward to upgrading to a house one day so I have more excuses to build things for it."
                 backgroundLink={woodworkingGif}
                 imagePosition="right"/>
             <ProjectBanner 
-                title="Painting my Car"
-                description="It was pretty cool"
+                title="Car Makeover"
+                description="I bought a 22-year old Honda in rough shape from a farmer and endeavored to give it a glow-up. I went to a junk yard and got a non-dented quarter panel, some interior doo-dads that were missing, patched up the dents and rusty spots, and spent 3 days painting the exterior a nice aqua color using regular Rustoleum spray paint, of all things. Very pleased with the result and to have learned so much about my car in the process!"
                 backgroundLink={carPaintingGif}
                 imagePosition="left"/>
             <ProjectBanner 
                 title="Community Engagement"
-                description="wonder what it's like to be an HOA Vice President?"
+                description="I am lucky to live in a vibrant, walkable, diverse neighborhood of Minneapolis. I volunteer with the local volunteer network at community events and cleanups, I co-led a community garden last summer, and am the Vice President of my condo's HOA (it's really not as bad as you'd think). When feeling stressed about the fate of the world, being engaged with my community is the best antidote."
                 backgroundLink={communityGardenPic}
                 imagePosition="right"/>            
             </div>

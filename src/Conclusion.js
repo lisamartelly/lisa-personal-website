@@ -12,8 +12,9 @@ function Conclusion() {
     <div id="full-conclusion-section" className="padded">
         <div id="conclusion-banner">
             <div id="conclusion-left-text" className="media-col-100">
-                <p>As you can see, I'm pretty cool and awesome and think a lot of thinkgs and do a lot of thingks and i think you'd want to have me on your team.
-                I can type super fast too.</p>
+                <p>I am passionate about engineering and have a lot to offer. 
+                    I'm looking forward to finding the right organization and team to contribute towards and thrive in! 
+                    Please reach out if you'd like to chat for any reason: <a href="mailto:martelly.lisa@gmail.com">martelly.lisa@gmail.com</a></p>
             </div>
             <div id="conclusion-right-picture" className="media-col-100-small">
                 <img id="portrait" className="box-shadow" src={portrait} alt="Lisa Martelly" />

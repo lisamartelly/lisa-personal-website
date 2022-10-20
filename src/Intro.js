@@ -10,19 +10,17 @@ function Intro() {
             <div id="intro-left" className="media-col-100">
                 <h1>I am</h1> 
                 <h1><span className="highlight-container"><span className="highlight">Lisa Martelly</span></span></h1>
-                <p>I am a software engineer - converted from my past life as an Epidemiologist and 
-                    Public Health Professional.</p>
+                <p>I'm a software engineer, former Epidemiologist, enthusiastic cat-mom, and proud Minnesotan.</p>
             </div>
             <div id="intro-right" className="media-col-100-small">
                 <img id="avatar" className="box-shadow" src={avatar} alt="Avatar of Lisa Martelly" />
             </div>
         </div>
         <div id="detailed-intro" className="media-col-100">
-            <p>This is where I talk more in depth about myself. I want to be a frontend engineer. I think it's really cool and fun. 
-            I know how to do a lot of things. Oh, you want to know what I know? Well I will tell you, or maybe add little icons.
-            I'm not sure. still deciding what I will do for that. 
-
-            <b> Keep scrolling for some things I've been working on over the past few months!</b>
+            <p>I've taken a circuitious path to get here, but my heart has always been in math and technology.
+                Software engineering is the most fun I've ever had while working. It is engaging, forces you to learn, and can often be thrilling.
+                I graduated from a coding bootcamp in 2022 and am currently looking for the right junior role to kick off my career. 
+                I've had lots of fun working on projects and self-teaching since graduating. <b> Keep scrolling to learn more about me and some things I've been working on!</b>
             </p>
         </div>
         <div id="skills-box" className="box-shadow-subtle">
