@@ -1,5 +1,6 @@
  import ProjectBanner from "./ProjectBanner.js"
  import Button from "./Button.js"
+ // eslint-disable-next-line import/no-unresolved
  import returnOfResultsGif from "../static/gifs/return-of-results.gif"
  import transitGif from "../static/gifs/transit-weather.gif"
  import fullMoonEmailPic from "../static/img/full-moon-email.png"
@@ -51,7 +52,7 @@
 
             <ProjectBanner
                 title={"Full Moon Fan Club - in progress"}
-                description={"This project started as the email in the accompanying photo. A friend hatched the idea to connect each month over the full moon. I thought it'd be the perfect opportunity to dabble in other langues and tech and create a fullstack social media forum! Full site forthcoming - in the meantime you can join the original newsletter listserv by emailing Tom (see button below)."}
+                description={"This project started as the email in the accompanying photo. A friend hatched the idea to connect each month over the full moon. I thought it'd be the perfect opportunity to dabble in other languages and tech and create a fullstack social media forum! Full site forthcoming - in the meantime you can join the original newsletter listserv by emailing Tom (see button below)."}
                 backgroundLink={fullMoonEmailPic}
                 imagePosition="right"
                 stack="JavaScript, React, Express, Node.js, MongoDB, SCSS, GraphQL"
