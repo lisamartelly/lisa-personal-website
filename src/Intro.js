@@ -47,8 +47,6 @@ function Intro() {
                         <li>CSS3</li>
                         <li>HTML5</li>
                         <li>JavaScript</li>
-                    </ul>
-                    <ul className="skills-list">
                         <li>Flask</li>
                         <li>Node</li>
                         <li>Rest API</li>
