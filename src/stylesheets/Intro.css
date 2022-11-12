@@ -1,32 +1,43 @@
-
-#full-intro-section {
+.container {  display: grid;
+    grid-template-columns: 2fr 0.8fr 0.2fr;
+    grid-template-rows: .8fr 1.2fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
     background: linear-gradient(to bottom, transparent, rgb(236, 236, 236)), url("../../static/img/triangles.png");
 
+  }
+  
+  .header { 
+    grid-area: 1 / 1 / 2 / 4;
+    background-color: #00B0AA;
+
 }
 
-#intro-banner {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
-    flex-wrap: wrap;
+.header h1 {
+    margin: .5rem 0;
 }
 
-#intro-right {
+  .intro-body { 
+    grid-area: 2 / 1 / 3 / 4;
+ }
+  
+  .photo { 
+    grid-area: 1 / 2 / 4 / 3;
+    background-color: #B6503B;
+    align-items: center;
     display: flex;
     justify-content: center;
+ }
+  
+  .skills { 
+    grid-area: 3 / 1 / 3 / 2; 
 }
+  
+
 
 #avatar {
-    width: 14rem;
+    width: 15rem;
 }
-
-#detailed-intro {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
 
 
 ul.skills-list {
@@ -42,32 +53,31 @@ ul.skills-list {
 .skills-list li {
     display: inline-block;
     text-transform: uppercase;
-    width: 6em;
+    width: auto;
 }
 
 #skills-box {
-   
     display: flex;
-    align-items: center;
-    width: 80%;
-    margin: 1.5rem auto 4rem auto;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 #skills-sub-box {
-    width: 100%;
-    padding: 0px 40px 0px 20px;
+    padding: 0px 40px 0px 40px;
     border: 2px;
     border-style: solid;
     border-color: #CF5C43;
     background-color: whitesmoke;
 }
 
-#skills-title {
-    transform: rotate(270deg);
+#skills-box h3 {
     background-color: #CF5C43;
     color: white;
     display: block;
-    margin-right: -25PX;
-    padding: 0px 12px;
-    margin-left: -20px;
+    text-align: center;
+    margin: 0;
+    width:100%;
+    
+ 
 }

@@ -4,7 +4,6 @@
  import returnOfResultsGif from "../static/gifs/return-of-results.gif"
  import transitGif from "../static/gifs/transit-weather.gif"
  import fullMoonEmailPic from "../static/img/full-moon-email.png"
- import personalWebsitePic from "../static/img/personal-website-ss.png"
  import carPaintingGif from "../static/gifs/car-painting.gif"
  import woodworkingGif from "../static/gifs/woodworking.gif"
  import communityGardenPic from "../static/img/community-garden.jpg"
@@ -66,19 +65,6 @@
                         text="GitHub - in progress"
                     />
                 </ProjectBanner>
-
-            <ProjectBanner
-                title={"My Personal Website"}
-                description={"You guessed it - I made this website! While making this I further practiced my React-best-practices, learned more about responsive design, and picked up some new CSS tricks along the way. This was my first time deploying a website on Firebase, as well."}
-                backgroundLink={personalWebsitePic}
-                imagePosition="left"
-                stack="JavaScript, React, CSS, Firebase"
-                >
-                    <Button 
-                        link="https://github.com/lisamartelly/lisa-personal-website"
-                        text="GitHub"
-                    />
-                    </ProjectBanner>
                     
 
         </div>

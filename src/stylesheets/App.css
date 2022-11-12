@@ -14,32 +14,37 @@ h2 {
 }
 
 h3 {
-    font-family: 'Silkscreen';
+    /* font-family: 'Silkscreen'; */
     font-size: 1.5rem;
 }
 
 
 body {
-    font-family: 'Nunito';
-    background-color: rgb(236, 236, 236);
+  font-family: 'Nunito';
+  background-color: rgb(236, 236, 236);
+  margin: 0;
+}
+
+#root {
+overflow: hidden;
 }
 
 .box-shadow {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  }
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 
 .text-shadow {
-  text-shadow: 2px 2px 2px gray;
+text-shadow: 2px 2px 2px gray;
 }
 
 /* highlight stuff */
 
 .highlight-container, .highlight {
-    position: relative;
-  }
-  
+  position: relative;
+}
+
 .highlight-container {
-    display: inline-block;
+  display: inline-block;
 }
 
 .highlight-container:before {
@@ -59,41 +64,41 @@ padding: 10px 3px 3px 10px;
 }
 
 @media only screen and (min-width: 751px) {
-  /* For larger screens: */
-  .media-col-100 {
-    width: 60%;
-  }
-  .media-col-100-small {
-    width: 40%;
-  }
-  .padded {
-    padding: 0 4rem;
-  }
-  h1 {
-    font-size: 4rem;
-  }
+/* For larger screens: */
+.media-col-100 {
+  width: 60%;
+}
+.media-col-100-small {
+  width: 40%;
+}
+.padded {
+  padding: 0 4rem;
+}
+h1 {
+  font-size: 4rem;
+}
 }
 
 @media only screen and (max-width: 750px) {
-  /* For mobile phones: */
-  .media-col-100, .media-col-100-small {
-    width: 100%;
-  }
-  .padded {
-    padding: 0 1.5rem;
-  }
-  h1 {
-    font-size: 3rem;
-    text-align: center;
-  }
-  
+/* For mobile phones: */
+.media-col-100, .media-col-100-small {
+  width: 100%;
+}
+.padded {
+  padding: 0 1.5rem;
+}
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
 }
 
 @media only screen and (max-width: 750px) {
-  /* For super skinny mobile phones: */
-  h1 {
-    font-size: 2.5rem;
-    text-align: center;
-  }
-  
+/* For super skinny mobile phones: */
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
 }
