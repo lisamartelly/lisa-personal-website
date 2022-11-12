@@ -11,7 +11,15 @@
     background: linear-gradient(to top, transparent, rgb(236, 236, 236)), url("../../static/img/double-bubble-outline.png");
 }
 
-#tech-projects-section {
-    background: linear-gradient(to bottom, transparent, rgb(236, 236, 236)), linear-gradient(to top, transparent, rgb(236, 236, 236)), url("../../static/img/pipes.png");
+#life-projects-section .project-text-container {
+    background-color: #143d4c;
 }
+
+#tech-projects-section {
+    /* background: linear-gradient(to bottom, transparent, rgb(236, 236, 236)), linear-gradient(to top, transparent, rgb(236, 236, 236)), url("../../static/img/pipes.png"); */
+    background-color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 

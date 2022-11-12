@@ -24,7 +24,7 @@
                 description="For my bootcamp capstone project I created an app for sharing/returning data with research participants. It has a researcher side to plan which data will be shared, store results, and share results. There are administrative capabilities as well. It also has a participant side (like a patient portal) to view results."
                 stack="Python, JavaScript, Jinja, React, Flask, CSS, SQL, PostgreSQL, REST Api, AWS"
                 backgroundLink={returnOfResultsGif}
-                imagePosition="right"
+                imagePosition="left"
                 >
                     <Button 
                         link="https://github.com/lisamartelly/return-of-results"
@@ -53,7 +53,7 @@
                 title={"Full Moon Fan Club - in progress"}
                 description={"This project started as the email in the accompanying photo. A friend hatched the idea to connect each month over the full moon. I thought it'd be the perfect opportunity to dabble in other languages and tech and create a fullstack social media forum! Full site forthcoming - in the meantime you can join the original newsletter listserv by emailing Tom (see button below)."}
                 backgroundLink={fullMoonEmailPic}
-                imagePosition="right"
+                imagePosition="left"
                 stack="JavaScript, React, Express, Node.js, MongoDB, SCSS, GraphQL"
                 >
                     <Button 
@@ -81,7 +81,7 @@
                 title="Car Makeover"
                 description="I bought a 22-year old Honda in rough shape from a farmer and endeavored to give it a glow-up. I went to a junk yard and got a non-dented quarter panel, some interior doo-dads that were missing, patched up the dents and rusty spots, and spent 3 days painting the exterior a nice aqua color using regular Rustoleum spray paint, of all things. Very pleased with the result and to have learned so much about my car in the process!"
                 backgroundLink={carPaintingGif}
-                imagePosition="left"/>
+                imagePosition="right"/>
             <ProjectBanner 
                 title="Community Engagement"
                 description="I am lucky to live in a vibrant, walkable, diverse neighborhood of Minneapolis. I volunteer with the local volunteer network at community events and cleanups, I co-led a community garden last summer, and am the Vice President of my condo's HOA (it's really not as bad as you'd think). When feeling stressed about the fate of the world, being engaged with my community is the best antidote."
