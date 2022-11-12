@@ -39,8 +39,15 @@
     display: flex;
 }
 
+
+
+
 .icons a {
     color:black;
+}
+
+.icons a:hover {
+    color: #143d4c;
 }
 
   
@@ -56,7 +63,6 @@
 
 #portrait {
     width: 70%;
-    height: 79%;
     object-fit: cover;
 }
 
@@ -64,5 +70,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (max-width: 750px) {
+    .conclusion-container {
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: .5fr 1fr .5fr; 
+        gap: 0px 0px; 
+      }
+      .text-bg { grid-area: 1 / 1 / 2 / 2; }
+      .picture { grid-area: 2 / 1 / 3 / 2; }
+      .icons { 
+        grid-area: 3 / 1 / 4 / 2; 
+        flex-direction: row;
+        justify-content: space-around;}
+      .text { 
+        grid-area: 1 / 1 / 2 / 2;
+        padding: 0 2rem }
+      #portrait { 
+        width: 60%;
+        margin-top: 5em;
+     }
+
 }
 
